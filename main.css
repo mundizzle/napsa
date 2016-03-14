@@ -1,0 +1,68 @@
+
+
+body {
+  background-image: url(images/logo.png);
+  background-repeat: no-repeat;
+  background-position: center 5px;
+  background-size: auto 75px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-top: 1.5em;
+}
+h2 {
+  font-size: 1em;
+}
+
+dt, dd {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  height: 30px;
+}
+
+dt {
+  width: 10%;
+}
+
+dd {
+  width: 88%;
+}
+
+.green {
+  background-color: #a4d59d;
+}
+.blue {
+  background-color: #7da7da;
+}
+.yellow {
+  background-color: #fef999;
+}
+.orange {
+  background-color: #fcb05d;
+}
+
+.cursive {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.polaroid {
+  background-color: #e6e5e3;
+  padding: 15px 15px 5px 15px;
+  text-align: center;
+  margin: 0 0 15px 0;
+  font-size: 1.5em;
+  color: #a61d0c;
+}
+
+.polaroid img {
+  display: block;
+  margin-bottom: 5px;
+}
