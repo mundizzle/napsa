@@ -15,7 +15,6 @@
     "test": "npm-run-all -s test:*",
     "test:js": "standard ./src/js/**/*.js --verbose | snazzy",
     "test:css": "stylelint ./src/css/**/*.css",
-    "clean": "rimraf dist/*",
     "start": "npm-run-all -p server watch",
     "server": "watch-http-server dist",
     "watch": "npm-scripts-watcher",
