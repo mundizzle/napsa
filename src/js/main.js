@@ -1,0 +1,5 @@
+window.jQuery = window.$ = require('jQuery')
+window.Tether = require('tether')
+require('bootstrap')
+require('jqvmap/jqvmap/jquery.vmap')
+require('jqvmap/jqvmap/maps/jquery.vmap.usa')
