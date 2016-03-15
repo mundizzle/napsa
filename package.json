@@ -15,6 +15,7 @@
     "test": "npm-run-all -s test:*",
     "test:js": "standard ./src/js/**/*.js --verbose | snazzy",
     "test:css": "stylelint ./src/css/**/*.css",
+    "clean": "trash './dist/*' '!./dist/.git'",
     "start": "npm-run-all -p server watch",
     "server": "watch-http-server dist",
     "watch": "npm-scripts-watcher",
@@ -64,11 +65,11 @@
     "postcss-import": "8.0.2",
     "postcss-reporter": "1.3.3",
     "postcss-url": "5.1.1",
-    "rimraf": "2.5.2",
     "snazzy": "3.0.0",
     "standard": "6.0.8",
     "stylelint": "5.0.1",
     "stylelint-config-standard": "4.0.1",
+    "trash-cli": "1.2.1",
     "watch-http-server": "0.7.6"
   },
   "dependencies": {
