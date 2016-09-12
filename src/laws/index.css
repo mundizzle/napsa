@@ -1,0 +1,42 @@
+#usa {
+  width: 100%;
+}
+
+.orange {
+  fill: #fcb05d;
+}
+
+.yellow {
+  fill: #fef999;
+}
+
+.blue {
+  fill: #7da7da;
+}
+
+.green {
+  fill: #a4d59d;
+}
+
+path {
+  transition: all 1s;
+}
+
+
+dt,
+dd {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0 1em;
+}
+
+dt {
+  width: 10%;
+}
+
+dd {
+  width: 90%;
+}
