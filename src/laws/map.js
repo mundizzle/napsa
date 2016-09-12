@@ -4,7 +4,7 @@ class Map extends Component {
   render() {
     const { states, onClick } = this.props
     return (
-      <svg id="usa" height="593">
+      <svg id="usa">
         <g>
           {
             states.map(function(state, key){

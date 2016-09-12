@@ -4,10 +4,13 @@ import states from './states'
 import Map from './map'
 import './index.css';
 
+import AppShell from '../components/app_shell'
+
 class Laws extends Component {
   constructor (props) {
     super(props)
     this.state = {
+      state: null,
       states: states
     }
     this.clickState = this.clickState.bind(this)
@@ -20,10 +23,19 @@ class Laws extends Component {
   clickState (e) {
     const state = this.getStateById(e.target.id)
     console.log(state)
+    this.setState({
+      state: state
+    })
   }
   render() {
+    const { state } = this.state
+    let img
+    if (state) {
+      img = <img className="p4p-state" src={state.src} />
+    }
     return (
-      <div>
+      <AppShell>
+        {img}
         <h1>What's Happening In Your State?</h1>
         <h2>U.S. State Laws on the Private Ownership of Primates: Primate Incidents 1990 - 2015</h2>
         <Map onClick={this.clickState} states={this.state.states} />
@@ -37,7 +49,7 @@ class Laws extends Component {
           <dt style={{backgroundColor: $green}}></dt>
           <dd>Ban on all Primate Species</dd>
         </dl>
-      </div>
+      </AppShell>
     );
   }
 }
