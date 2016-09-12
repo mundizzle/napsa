@@ -1,5 +1,17 @@
 
 .species-link-image {
   height: auto;
-  width: 100%;
+  width: 30%;
+}
+
+.p4p-content-species .reset-li {
+  background-color: #7d4900;
+  padding: 0;
+  margin: .5em 0;
+}
+
+.p4p-content-species div {
+  width: 65%;
+  display: inline-block;
+  padding: 0 1em;
 }

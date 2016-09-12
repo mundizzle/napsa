@@ -15,11 +15,21 @@ a {
   color: #042f32;
 }
 
+h2 {
+  font-size: 18px;
+  border-top: 1px solid #042f32;
+  margin: 0;
+  padding: .5em 1em;
+  background-color: #a7c681;
+  color: #042f32;
+}
+
 p4p-app-shell {
   position: relative;
 }
 
 .p4p-nav {
+  z-index: 2;
   display: block;
   position: absolute;
   width: 75%;
@@ -85,7 +95,10 @@ header {
 
 main {
   color: #a7c681;
-  padding: 1em;
+  padding: 0;
   position: relative;
 }
 
+.p4p-content {
+  padding: 1em;
+}

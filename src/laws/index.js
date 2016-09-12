@@ -36,19 +36,21 @@ class Laws extends Component {
     return (
       <AppShell>
         {img}
-        <h1>What's Happening In Your State?</h1>
-        <h2>U.S. State Laws on the Private Ownership of Primates: Primate Incidents 1990 - 2015</h2>
-        <Map onClick={this.clickState} states={this.state.states} />
-        <dl>
-          <dt style={{backgroundColor: $blue}}></dt>
-          <dd>No Laws</dd>
-          <dt style={{backgroundColor: $yellow}}></dt>
-          <dd>Requires License or Permit to Own</dd>
-          <dt style={{backgroundColor: $orange}}></dt>
-          <dd>Partial Ban <small>(ban on certain species of primates)</small></dd>
-          <dt style={{backgroundColor: $green}}></dt>
-          <dd>Ban on all Primate Species</dd>
-        </dl>
+        <h2>What's Happening In Your State?</h2>
+        <div className="p4p-content">
+          <h3>U.S. State Laws on the Private Ownership of Primates: Primate Incidents 1990 - 2015</h3>
+          <Map onClick={this.clickState} states={this.state.states} />
+          <dl>
+            <dt style={{backgroundColor: $blue}}></dt>
+            <dd>No Laws</dd>
+            <dt style={{backgroundColor: $yellow}}></dt>
+            <dd>Requires License or Permit to Own</dd>
+            <dt style={{backgroundColor: $orange}}></dt>
+            <dd>Partial Ban <small>(ban on certain species of primates)</small></dd>
+            <dt style={{backgroundColor: $green}}></dt>
+            <dd>Ban on all Primate Species</dd>
+          </dl>
+        </div>
       </AppShell>
     );
   }

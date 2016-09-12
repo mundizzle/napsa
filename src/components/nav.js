@@ -18,6 +18,7 @@ class Nav extends React.Component {
           </svg>
         </div>
         <ul className="nav-ul reset-ul">
+          <li className="reset-li"><Link to="/">Home</Link></li>
           <li className="reset-li"><Link to="/species">Primate Species: Pet vs. Wild</Link></li>
           <li className="reset-li"><Link to="/laws">What's Happening In Your State?</Link></li>
           <li className="reset-li"><Link to="/share">Share Your Support</Link></li>
