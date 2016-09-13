@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, browserHistory } from 'react-router';
+import { Router, Route, hashHistory } from 'react-router';
 
 import './index.css';
 
@@ -12,7 +12,7 @@ import Share from './share';
 import Help from './help';
 
 ReactDOM.render(
-  <Router history={browserHistory}>
+  <Router history={hashHistory}>
     <Route path="/" component={Home} />
     <Route path="/laws" component={Laws} />
     <Route path="/species" component={Species} />
