@@ -53,6 +53,7 @@
     "prebuild": "npm run clean",
     "prestart": "npm prune && npm install",
     "start": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "predeploy": "npm run build",
     "deploy": "./deploy.sh"
   }
 }
