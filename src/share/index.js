@@ -1,18 +1,17 @@
-import React, { Component } from 'react';
-import './index.css';
+import React, { Component } from 'react'
+import './index.css'
 
-import AppShell from '../components/app_shell'
+import App from '../app'
 
 class Share extends Component {
-  render() {
+  render () {
     return (
-      <AppShell>
+      <App>
         <h2>Share Your Support</h2>
-        <div className="p4p-content">
-        </div>
-      </AppShell>
-    );
+        <div className='p4-content' />
+      </App>
+    )
   }
 }
 
-export default Share;
+export default Share

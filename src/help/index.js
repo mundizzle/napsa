@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import './index.css';
+import React, { Component } from 'react'
+import './index.css'
 
-import AppShell from '../components/app_shell'
+import App from '../app'
 
 class Help extends Component {
-  render() {
+  render () {
     return (
-      <AppShell>
+      <App>
         <h2>How to Help</h2>
-        <div className="p4p-content">
+        <div className='p4-content'>
           <ul>
             <li>Article of issue - celebrity with primate, company using primate for ad, entertainment business using primate, etc.</li>
             <li>Already written letter to celebrity or business</li>
@@ -16,9 +16,9 @@ class Help extends Component {
             <li>Link to company or celebrity Facebook - user can also attach post there</li>
           </ul>
         </div>
-      </AppShell>
+      </App>
     )
   }
 }
 
-export default Help;
+export default Help

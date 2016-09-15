@@ -1,0 +1,30 @@
+header {
+  background-color: #fd7d26;
+  padding: .5em;
+}
+
+
+.p4-header h1 {
+  font-size: 20px;
+  padding: 0;
+  margin: 0 0 0 .65em;
+}
+
+.p4-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.p4-monkey {
+  height: 50px;
+  width: auto;
+  margin-left: 1em;
+}
+
+
+.p4-toggle-menu {
+  margin-top: -7px;
+  height: 20px;
+  width: 20px;
+}

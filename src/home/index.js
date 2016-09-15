@@ -1,17 +1,12 @@
-import React, { Component } from 'react'
-import { Link } from 'react-router'
+import React from 'react'
 import './index.css'
 
-import AppShell from '../components/app_shell'
+import App from '../app'
 
-class Home extends Component {
-  render() {
-    return (
-      <AppShell>
-        Welcome
-      </AppShell>
-    )
-  }
-}
+const Home = () => (
+  <App>
+    Welcome
+  </App>
+)
 
 export default Home

@@ -1,0 +1,51 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import 'tachyons';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #544b3d;
+  font-family: 'Open Sans', sans-serif;
+  color: #042f32;
+}
+
+a {
+  font-weight: bold;
+  color: #042f32;
+}
+
+h2 {
+  font-size: 18px;
+  border-top: 1px solid #042f32;
+  margin: 0;
+  padding: 0.5em 1em;
+  background-color: #a7c681;
+  color: #042f32;
+}
+
+.reset-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.reset-li {
+  list-style: none;
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+main {
+  color: #a7c681;
+  padding: 0;
+  position: relative;
+}
+
+.p4-content {
+  padding: 1em;
+}
+
+.p4-app-shell {
+  position: relative;
+}

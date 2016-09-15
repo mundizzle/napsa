@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class Map extends Component {
-  render() {
+  render () {
     const { states, onClick } = this.props
     return (
-      <svg id="usa">
+      <svg id='usa'>
         <g>
           {
-            states.map(function(state, key){
+            states.map(function (state, key) {
               return <path key={key} onClick={onClick} {...state} />
             })
           }

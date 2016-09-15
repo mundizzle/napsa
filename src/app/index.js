@@ -4,8 +4,10 @@ import Header from './header'
 import Nav from './nav'
 import Footer from './footer'
 
-class AppShell extends React.Component {
-  constructor(props) {
+import './index.css'
+
+class App extends Component {
+  constructor (props) {
     super(props)
     this.state = {
       isNavOpen: false
@@ -18,10 +20,10 @@ class AppShell extends React.Component {
       isNavOpen: !this.state.isNavOpen
     })
   }
-  render() {
+  render () {
     const { isNavOpen } = this.state
     return (
-      <div className="p4p-app-shell">
+      <div className='p4-app-shell'>
         <Header toggleNav={this.toggleNav} />
         <Nav isNavOpen={isNavOpen} toggleNav={this.toggleNav} />
         <main>
@@ -33,8 +35,8 @@ class AppShell extends React.Component {
   }
 }
 
-AppShell.propTypes = {
+App.propTypes = {
   children: PropTypes.node
 }
 
-export default AppShell
+export default App
