@@ -8,17 +8,11 @@ class Header extends Component {
     const { toggleNav, isNavOpen } = this.props
     return (
       <header className='header'>
-        <div>
-          <button onClick={toggleNav}>
-            {isNavOpen ? `x` : `☰`}
-          </button>
-        </div>
-        <div style={{flex: 1}}>
-          <h1>Progress4Primates</h1>
-        </div>
-        <div>
-          <img className='monkey' src={monkey} />
-        </div>
+        <button onClick={toggleNav}>
+          {isNavOpen ? `x` : `☰`}
+        </button>
+        <h1>Progress4Primates</h1>
+        <img className='monkey' src={monkey} />
       </header>
     )
   }
