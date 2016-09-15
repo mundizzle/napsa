@@ -15,7 +15,6 @@ class App extends Component {
     this.toggleNav = this.toggleNav.bind(this)
   }
   toggleNav () {
-    console.log(this.state.isNavOpen)
     this.setState({
       isNavOpen: !this.state.isNavOpen
     })
@@ -23,8 +22,8 @@ class App extends Component {
   render () {
     const { isNavOpen } = this.state
     return (
-      <div className='p4-app-shell'>
-        <Header toggleNav={this.toggleNav} />
+      <div className='shell'>
+        <Header toggleNav={this.toggleNav} isNavOpen={isNavOpen} />
         <Nav isNavOpen={isNavOpen} toggleNav={this.toggleNav} />
         <main>
           {this.props.children}

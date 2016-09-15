@@ -1,51 +1,53 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import 'sanitize.css/sanitize';
 @import 'tachyons';
 
 html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #544b3d;
   font-family: 'Open Sans', sans-serif;
   color: #042f32;
+  background-color: #fd7d26;
+  height: 100%;
 }
 
-a {
-  font-weight: bold;
-  color: #042f32;
-}
-
-h2 {
-  font-size: 18px;
-  border-top: 1px solid #042f32;
+.h2 {
+  color: #a7c681;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #a7c681;
+  height: 50px;
+  line-height: 50px;
   margin: 0;
-  padding: 0.5em 1em;
-  background-color: #a7c681;
-  color: #042f32;
+  background-color: #544b3e;
 }
 
-.reset-ul {
+[data-root] {
+  height: 100%;
+}
+
+.reset {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.reset-li {
-  list-style: none;
-  margin: 0;
-  padding: 0.5em 0;
+.shell {
+  display: flex;
+  flex-direction: column;
 }
 
 main {
-  color: #a7c681;
+  background-color: #fff;
+  flex: 10;
+  min-height: 450px;
   padding: 0;
-  position: relative;
+  margin: 0 0.5em;
 }
 
-.p4-content {
-  padding: 1em;
+a {
+  text-decoration: none;
+  color: currentColor;
 }
 
-.p4-app-shell {
-  position: relative;
-}

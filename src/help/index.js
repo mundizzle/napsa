@@ -7,8 +7,8 @@ class Help extends Component {
   render () {
     return (
       <App>
-        <h2>How to Help</h2>
-        <div className='p4-content'>
+        <h2 className='h2'>How to Help</h2>
+        <div style={{padding: '1em'}}>
           <ul>
             <li>Article of issue - celebrity with primate, company using primate for ad, entertainment business using primate, etc.</li>
             <li>Already written letter to celebrity or business</li>

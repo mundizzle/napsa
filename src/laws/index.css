@@ -1,50 +1,47 @@
-#usa {
-
+.usa-viewport {
+  overflow-x: auto;
 }
 
-.p4-state {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
+dl {
+  margin: 1em;
+  clear: both;
+}
+
+dt {
+  float: left;
+  width: 10%;
+  margin: 0;
+  padding: 0;
+}
+
+dl {
+  float: left;
+  width: 79%;
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+
+.usa {
+  width: 930px;
+  height: 600px;
 }
 
 .orange {
-  fill: #fcb05d;
+  fill: $orange;
 }
 
 .yellow {
-  fill: #fef999;
+  fill: $yellow;
 }
 
 .blue {
-  fill: #7da7da;
+  fill: $blue;
 }
 
 .green {
-  fill: #a4d59d;
+  fill: $green;
 }
 
 path {
   transition: all 1s;
-}
-
-
-dt,
-dd {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 30px;
-  height: 30px;
-  margin: 0;
-  padding: 0 1em;
-}
-
-dt {
-  width: 10%;
-}
-
-dd {
-  width: 90%;
 }
