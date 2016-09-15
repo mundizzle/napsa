@@ -8,9 +8,9 @@ class Header extends Component {
     const { toggleNav, isNavOpen } = this.props
     return (
       <header className='header'>
-        <button onClick={toggleNav}>
+        <div className='toggle' onClick={toggleNav}>
           {isNavOpen ? `x` : `☰`}
-        </button>
+        </div>
         <h1>Progress4Primates</h1>
         <img className='monkey' src={monkey} />
       </header>

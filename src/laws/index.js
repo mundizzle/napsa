@@ -17,7 +17,7 @@ class Laws extends Component {
     })
   }
   clickState (e) {
-    window.location = `/#/laws/${this.getStateById(e.target.id).id}`
+    window.location = `#/laws/${this.getStateById(e.target.id).id}`
   }
   render () {
     return (
