@@ -17,7 +17,8 @@ class Laws extends Component {
     })
   }
   clickState (e) {
-    window.location = `#/laws/${this.getStateById(e.target.id).id}`
+    const id = e.target.id ? e.target.id : e.target.dataset.id
+    window.location = `#/laws/${this.getStateById(id).id}`
   }
   render () {
     return (
