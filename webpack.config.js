@@ -9,6 +9,9 @@ var src = path.join(__dirname, 'src')
 var build = path.join(__dirname, 'build')
 
 var config = {
+  devServer: {
+    host: '0.0.0.0'
+  },
   entry: [ src ],
   output: { filename: 'main.js', path: build },
   module: {
