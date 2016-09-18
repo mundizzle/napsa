@@ -15,6 +15,11 @@ dt {
   padding: 0;
 }
 
+dd {
+  margin-left: 1em;
+  white-space: nowrap;
+}
+
 dl {
   float: left;
   width: 79%;

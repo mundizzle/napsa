@@ -11,7 +11,7 @@ class Specie extends Component {
     return (
       <div>
         <div>
-          <Link to='/species'>Back</Link>
+          <Link to='/species' className='back-link'>Back</Link>
         </div>
         {img}
       </div>

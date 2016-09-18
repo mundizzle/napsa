@@ -7,7 +7,7 @@ class State extends Component {
     return (
       <div>
         <div>
-          <Link to='/laws'>Back</Link>
+          <Link to='/laws' className='back-link'>Back</Link>
         </div>
         <img src={`static/images/states/${id.toLowerCase()}.png`} />
       </div>
