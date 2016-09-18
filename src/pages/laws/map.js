@@ -35,11 +35,11 @@ class Map extends Component {
             <text data-id="IL" onClick={onClick} x="565" y="260">Illinois</text>
             <text data-id="WI" onClick={onClick} x="540" y="135">Wisconsin</text>
             <text data-id="MS" onClick={onClick} x="510" y="310">Missouri</text>
-            <text data-id="AK" onClick={onClick} x="510" y="365" fill="white">Arkansas</text>
+            <text data-id="AK" onClick={onClick} x="510" y="365">Arkansas</text>
             <text data-id="LA" onClick={onClick} x="527" y="480">Louisiana</text>
             <text data-id="MS" onClick={onClick} x="555" y="440">Mississippi</text>
             <text data-id="AL" onClick={onClick} x="620" y="410">Alabama</text>
-            <text data-id="FL" onClick={onClick} x="680" y="465" fill="white">Florida</text>
+            <text data-id="FL" onClick={onClick} x="680" y="465">Florida</text>
             <text data-id="GA" onClick={onClick} x="690" y="420">Georgia</text>
             <text data-id="SC" onClick={onClick} x="705" y="380">South Carolina</text>
             <text data-id="NC" onClick={onClick} x="722" y="340">North Carolina</text>
@@ -47,10 +47,10 @@ class Map extends Component {
             <text data-id="WV" onClick={onClick} x="705" y="275">West Virgina</text>
             <text data-id="MD" onClick={onClick} x="752" y="250">Maryland</text>
             <text data-id="DE" onClick={onClick} x="825" y="255">Delaware</text>
-            <text data-id="TN" onClick={onClick} x="610" y="350" fill="white">Tenessee</text>
+            <text data-id="TN" onClick={onClick} x="610" y="350">Tenessee</text>
             <text data-id="KY" onClick={onClick} x="635" y="315">Kentucky</text>
             <text data-id="IN" onClick={onClick} x="615" y="240">Indiana</text>
-            <text data-id="OH" onClick={onClick} x="680" y="240" fill="white">Ohio</text>
+            <text data-id="OH" onClick={onClick} x="680" y="240">Ohio</text>
             <text data-id="MI" onClick={onClick} x="632" y="180">Michigan</text>
             <text data-id="NY" onClick={onClick} x="770" y="175">New York</text>
             <text data-id="PA" onClick={onClick} x="730" y="215">Pennsylvania</text>
