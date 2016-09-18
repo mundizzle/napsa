@@ -29,11 +29,11 @@ class Laws extends Component {
           <Map onClick={this.clickState} states={states} />
           <div>
             <dl>
-              <dt style={{backgroundColor: $blue}}>&nbsp;</dt>
+              <dt style={{backgroundColor: $orange}}>&nbsp;</dt>
               <dd>No Laws</dd>
               <dt style={{backgroundColor: $yellow}}>&nbsp;</dt>
               <dd>License or Permit Required</dd>
-              <dt style={{backgroundColor: $orange}}>&nbsp;</dt>
+              <dt style={{backgroundColor: $blue}}>&nbsp;</dt>
               <dd>Ban on Some Primates Species</dd>
               <dt style={{backgroundColor: $green}}>&nbsp;</dt>
               <dd>Ban on all Primate Species</dd>
