@@ -16,10 +16,10 @@ body {
   color: #a7c681;
   font-size: 20px;
   text-align: center;
-  height: 50px;
-  line-height: 50px;
   margin: 0;
   background-color: #544b3e;
+  height: auto;
+  padding: 0.25em 0;
 }
 
 [data-root] {
