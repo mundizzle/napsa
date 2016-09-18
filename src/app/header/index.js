@@ -11,7 +11,7 @@ class Header extends Component {
           {isNavOpen ? `x` : `☰`}
         </div>
         <h1>Progress4Primates</h1>
-        <img className='monkey' src='static/images/monkey.png' />
+        <img className={`monkey ${isNavOpen ? 'spin' : ''}`} src='static/images/monkey.png' />
       </header>
     )
   }
