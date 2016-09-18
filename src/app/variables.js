@@ -1,6 +1,6 @@
 module.exports = {
-  $green: '#a4d59d',
-  $blue: '#7da7da',
-  $orange: '#fcb05d',
-  $yellow: '#fef999'
+  $green: '#9ccf32',
+  $blue: '#009ece',
+  $orange: '#ce0000',
+  $yellow: '#f7d709'
 }
