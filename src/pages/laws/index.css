@@ -3,6 +3,12 @@
   width: 100%;
 }
 
+text {
+  fill: #042f32;
+  stroke: #042f32;
+  font-size: 10px;
+}
+
 dl {
   margin: 1em;
   clear: both;
