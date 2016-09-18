@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
 import './index.css'
-import monkey from './images/monkey.png'
 
 class Header extends Component {
   render () {
@@ -12,7 +11,7 @@ class Header extends Component {
           {isNavOpen ? `x` : `☰`}
         </div>
         <h1>Progress4Primates</h1>
-        <img className='monkey' src={monkey} />
+        <img className='monkey' src='static/images/monkey.png' />
       </header>
     )
   }

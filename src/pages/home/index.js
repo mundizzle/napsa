@@ -1,14 +1,12 @@
 import React from 'react'
 import './index.css'
 
-import logo2 from '../logo2.png'
-
-import App from '../app'
+import App from '../../app'
 
 const Home = () => (
   <App>
     <p>
-      <img className='logo' src={logo2} />
+      <img className='logo' src='static/images/logo2.png' />
     </p>
   </App>
 )

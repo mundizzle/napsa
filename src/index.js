@@ -2,14 +2,14 @@ import React from 'react'
 import { render } from 'react-dom'
 import { Router, Route, hashHistory } from 'react-router'
 
-import Home from './home'
-import Laws from './laws'
-import State from './laws/state'
-import Species from './species'
-import Specie from './species/specie'
-import Oops from './oops'
-import Share from './share'
-import Help from './help'
+import Home from './pages/home'
+import Laws from './pages/laws'
+import State from './pages/laws/state'
+import Species from './pages/species'
+import Specie from './pages/species/specie'
+import Oops from './pages/oops'
+import Share from './pages/share'
+import Help from './pages/help'
 
 render(
   <Router history={hashHistory}>

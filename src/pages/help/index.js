@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './index.css'
 
-import App from '../app'
+import App from '../../app'
 
 class Help extends Component {
   render () {

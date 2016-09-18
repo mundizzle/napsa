@@ -1,10 +1,7 @@
 import React, { Component } from 'react'
 import './index.css'
 
-import sample1 from './images/sample1.png'
-import sample2 from './images/sample2.png'
-
-import App from '../app'
+import App from '../../app'
 
 class Share extends Component {
   render () {
@@ -16,10 +13,10 @@ class Share extends Component {
             Create your own
             <input type='file' />
           </p>
-          <img className='share' src={sample1} />
+          <img className='share' src='static/images/share/sample1.png' />
           <br />
           <br />
-          <img className='share' src={sample2} />
+          <img className='share' src='static/images/share/sample2.png' />
         </div>
       </App>
     )

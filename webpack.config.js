@@ -44,9 +44,7 @@ var config = {
     new ExtractTextPlugin('main.css'),
     new CopyWebpackPlugin([
       { from: path.join(src, 'static'), to: 'static' },
-      { from: path.join(src, 'favicon.ico') },
-      { from: path.join(src, 'manifest.json') },
-      { from: path.join(src, 'monkey.png') }
+      { from: path.join(src, 'favicon.ico') }
     ], {
       copyUnmodified: true
     }),

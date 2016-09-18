@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import { $blue, $green, $yellow, $orange } from '../app/variables'
+import { $blue, $green, $yellow, $orange } from '../../app/variables'
 import states from './states'
 
 import Map from './map'
-import App from '../app'
+import App from '../../app'
 import './index.css'
 
 class Laws extends Component {
