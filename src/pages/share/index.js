@@ -123,7 +123,14 @@ class Share extends Component {
       <App>
         <h2 className='h2'>Share Your Support</h2>
         <div style={{padding: '1em'}}>
-          <h3>Create your own</h3>
+          <h3>Create your own to share on...</h3>
+          <div>
+            <img className='social' src='static/images/share/twitter.png' />
+            <img className='social' src='static/images/share/facebook.png' />
+            <img className='social' src='static/images/share/snapchat.png' />
+            <img className='social' src='static/images/share/instagram.png' />
+          </div>
+
           <p>
             <input type='file' onChange={this.loadImage} multiple />
           </p>
