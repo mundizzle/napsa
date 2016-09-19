@@ -1,0 +1,45 @@
+.primate img {
+  height: auto;
+  width: 100px;
+  display: block;
+}
+
+.primate {
+  margin: 0.5em;
+  display: inline-block;
+  text-align: center;
+  background-color: #eee;
+  box-shadow: 3px 3px 3px #ccc;
+}
+
+.thingy img {
+  height: 325px;
+  width: 325px;
+}
+
+.thingy {
+  position: relative;
+  background-color: #ccc;
+  margin-bottom: 1em;
+}
+
+.thingy-container {
+  padding: 1em;
+  background-color: #eee;
+  display: inline-block;
+  box-shadow: 3px 3px 3px #ccc;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #a41f16;
+  font-size: 24px;
+  text-align: center;
+}
+
+.thingy-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
